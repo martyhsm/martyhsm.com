@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  marty:
+    image: marty
+    build:
+      context: .
+      dockerfile: Dockerfile
